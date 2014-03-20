@@ -3,14 +3,9 @@
 \subsection{Implementation}
 
 \begin{itemize}
-    \item[*] Threshold value to be fixed in order to identify anomalies.
+    \item[*] Threshold value to be fixed in order to identify anomalies. The amount of dediation from the signature will be directly proportional to the anomaly shown by hte running process. This idea can be used to define the threshold value for identifying an attack.
     \item[*] A buffer will be incorporated in the software design in order to work with dynamic inputs.
     \item[*] An automated system for doing both signature creation and attack identification has to be implemented.
+    \item[*] Dataset was obtained from: http://www.cs.unm.edu/~immsec/begin.html
+    \item[*] Processes which are used for testing intrution detection are sendmail, ftp, lpr, xlock, named, login, ps, inetd. We include only those programs that run with privilege, because misuse of these programs has the greatest potential for harm to the system. 
 \end{itemize}
-
-\subsection{Testing}
-
-    \begin{itemize}
-        \item[*] Dataset was obtained from: http://www.cs.unm.edu/~immsec/begin.html
-        \item[*] Processes which are used for testing intrution detection are sendmail, ftp, lpr, xlock, named, login, ps, inetd.
-    \end{itemize}
